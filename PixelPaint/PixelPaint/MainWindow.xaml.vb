@@ -1,3 +1,9 @@
 ﻿Class MainWindow
+    Private Sub Fill1_MouseDown(sender As Object, e As MouseButtonEventArgs) Handles Fill1.MouseDown, Fill2.MouseDown, Fill3.MouseDown, Fill4.MouseDown, Fill5.MouseDown, Fill6.MouseDown, Fill7.MouseDown, Fill8.MouseDown
+        Brush1.Fill = sender.fill
+    End Sub
 
+    Private Sub P01_MouseDown(sender As Object, e As MouseButtonEventArgs) Handles P01.MouseDown, P02.MouseDown, P03.MouseDown, P04.MouseDown, P05.MouseDown, P06.MouseDown, P07.MouseDown, P08.MouseDown, P09.MouseDown, P10.MouseDown, P11.MouseDown, P12.MouseDown, P13.MouseDown, P14.MouseDown, P15.MouseDown, P16.MouseDown, P17.MouseDown, P18.MouseDown, P19.MouseDown, P20.MouseDown, P21.MouseDown, P22.MouseDown, P23.MouseDown, P24.MouseDown, P25.MouseDown, P26.MouseDown, P27.MouseDown, P28.MouseDown, P29.MouseDown, P30.MouseDown, P31.MouseDown, P32.MouseDown, P33.MouseDown, P34.MouseDown, P35.MouseDown, P36.MouseDown, P37.MouseDown, P38.MouseDown, P39.MouseDown, P40.MouseDown, P41.MouseDown, P42.MouseDown, P43.MouseDown, P44.MouseDown, P45.MouseDown, P46.MouseDown, P47.MouseDown, P48.MouseDown, P49.MouseDown, P50.MouseDown, P51.MouseDown, P52.MouseDown, P53.MouseDown, P54.MouseDown, P55.MouseDown, P56.MouseDown, P57.MouseDown, P58.MouseDown, P59.MouseDown, P60.MouseDown, P61.MouseDown, P62.MouseDown, P63.MouseDown, P64.MouseDown, P65.MouseDown, P66.MouseDown, P67.MouseDown, P68.MouseDown, P69.MouseDown, P70.MouseDown, P71.MouseDown, P72.MouseDown, P73.MouseDown, P74.MouseDown, P75.MouseDown, P76.MouseDown, P77.MouseDown, P78.MouseDown, P79.MouseDown, P80.MouseDown, P81.MouseDown, P82.MouseDown, P83.MouseDown, P84.MouseDown, P85.MouseDown, P86.MouseDown, P87.MouseDown, P88.MouseDown, P89.MouseDown, P90.MouseDown, P91.MouseDown, P92.MouseDown, P93.MouseDown, P94.MouseDown, P95.MouseDown, P96.MouseDown, P97.MouseDown, P98.MouseDown, P99.MouseDown, P100.MouseDown
+        sender.fill = Brush1.Fill
+    End Sub
 End Class
